@@ -1,0 +1,22 @@
+{
+  "name": "nodeping-backup",
+  "version": "0.0.1",
+  "description": "NodePing Backup Tools",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint '**/**.js'",
+    "test": "mocha"
+  },
+  "author": "Hasan Tayyar Besik",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "4.3.1",
+    "dayjs": "1.8.20",
+    "lodash": "4.17.15",
+    "node-fetch": "2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "mocha": "7.0.1"
+  }
+}
